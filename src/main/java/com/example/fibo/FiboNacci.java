@@ -10,7 +10,7 @@ public class FiboNacci {
     @RequestMapping("/fibb")
     public String showNum( @RequestParam("num") int num1)
     {
-
+         num1=0;
         String output ="";
         num2=num1+1;
         num3=num2+1;
