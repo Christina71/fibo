@@ -13,12 +13,12 @@ public class FiboNacci {
 
         String output ="";
         num2=num1+1;
-        num3=num2+num1;
-        num4=num3+num2;
-        num5=num4+num3;
-        num6=num5+num4;
-        num7=num6+num5;
-        num8=num7+num6;
+        num3=num2+1;
+        num4=num3+1;
+        num5=num4+num3+num2+num1;
+        num6=num5+num4+num3+num2;
+        num7=num6+num5+num4+num3;
+        num8=num7+num6+num5+num4;
 
         output = output + " " + num1 +" " +num2 + " " + num3 + " "  + num4 + " " + num5 + " " + num6 + " " + num7 + " " + num8;
         return output;
